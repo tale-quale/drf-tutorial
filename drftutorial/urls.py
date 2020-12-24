@@ -1,6 +1,6 @@
 from django.urls import path, include
 from rest_framework import routers
-from .quickstart import views
+from quickstart import views
 
 
 router = routers.DefaultRouter()
